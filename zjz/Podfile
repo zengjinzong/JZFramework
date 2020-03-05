@@ -2,7 +2,8 @@
 platform :ios, '8.0'
 
 target 'zjz' do
- pod 'JZFramework', :path => '../'
+ pod 'JZFramework', :git => 'https://github.com/zengjinzong/JZFramework.git'
+ # :path => '../'
  #https://github.com/zengjinzong/JZFramework.git
 
 end

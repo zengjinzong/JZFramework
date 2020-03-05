@@ -2,15 +2,20 @@ PODS:
   - JZFramework (0.0.1)
 
 DEPENDENCIES:
-  - JZFramework (from `../`)
+  - JZFramework (from `https://github.com/zengjinzong/JZFramework.git`)
 
 EXTERNAL SOURCES:
   JZFramework:
-    :path: "../"
+    :git: https://github.com/zengjinzong/JZFramework.git
+
+CHECKOUT OPTIONS:
+  JZFramework:
+    :commit: 26e1b41085d7ff3a704c3575fa4115a8767ad399
+    :git: https://github.com/zengjinzong/JZFramework.git
 
 SPEC CHECKSUMS:
   JZFramework: ea55061f2e345deabf5c079f57960ffc55c39c7a
 
-PODFILE CHECKSUM: 05e6dc69154a56fd47733ccba8eaac10d8e0ab57
+PODFILE CHECKSUM: e813fd719919132aaf88a5c816d68200f6b40d05
 
 COCOAPODS: 1.8.4
