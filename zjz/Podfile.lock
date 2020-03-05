@@ -1,0 +1,16 @@
+PODS:
+  - JZFramework (0.0.1)
+
+DEPENDENCIES:
+  - JZFramework (from `../`)
+
+EXTERNAL SOURCES:
+  JZFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JZFramework: ea55061f2e345deabf5c079f57960ffc55c39c7a
+
+PODFILE CHECKSUM: 05e6dc69154a56fd47733ccba8eaac10d8e0ab57
+
+COCOAPODS: 1.8.4
