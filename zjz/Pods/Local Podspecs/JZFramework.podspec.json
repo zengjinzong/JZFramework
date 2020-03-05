@@ -1,6 +1,6 @@
 {
   "name": "JZFramework",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "学习",
   "homepage": "https://github.com/zengjinzong/JZFramework",
   "license": {
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/zengjinzong/JZFramework.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "source_files": [
     "JZFramework",

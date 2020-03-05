@@ -1,5 +1,5 @@
 //
-//  MyUpdate.h
+//  MyTest.h
 //  JZFramework
 //
 //  Created by 曾进宗 on 2020/3/5.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyUpdate : NSObject
+@interface MyTest : NSObject
 
 @end
 
