@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   JZFramework:
-    :commit: fc7d3fd0af8ca977dae9a83e22530856b04ad3cd
+    :commit: 1bcb6c1e686e2555c1ec82c140196e90654a516d
     :git: https://github.com/zengjinzong/JZFramework.git
 
 SPEC CHECKSUMS:

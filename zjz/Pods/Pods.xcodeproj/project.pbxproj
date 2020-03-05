@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2713F3008ACE7059E1CA96DC9ECF28F2 /* JZFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3E97AADE453E21315C24505C2BC02 /* JZFramework-dummy.m */; };
-		9F4CC7308302534944DF6FC665062BCF /* MyFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = B5476D6DFD660984E4502C6F8CEC848A /* MyFramework.m */; };
+		04F5FEFD498C3674BB421312C4294196 /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6BBF8CCE343A3BEFD72CB35173B5B /* MyTest.m */; };
+		109D79EC956E9AD1D63F6172BEDCDCEE /* JZFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B631305B0BAF326C710CBDE8E4775B20 /* JZFramework-dummy.m */; };
+		3D4B6F254853B90E23673DE5A014D8DA /* MyTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C140DFA6377A3348DC3CB990A504ED02 /* MyTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D047711667C16DEA7E608DAA20A1E1D /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3C899514A276B476570C27186D05BB /* MyFramework.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E472E5CF4A9E0A7D1DFCA3BBE1D6713 /* MyFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = F295EED4BBBDFFA76552F0927DE73F6B /* MyFramework.m */; };
 		E509A98AAB3ECCBDA527DAABF44CBA3C /* Pods-zjz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E32AA3FCF0A247588B0D1BFF64457 /* Pods-zjz-dummy.m */; };
-		EB7897E4BD695D34A958D0518A9F12A6 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 34218CDFD58B6CD4158DD2BFBE7F9609 /* MyFramework.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,19 +26,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3C899514A276B476570C27186D05BB /* MyFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFramework.h; path = Sources/MyFramework.h; sourceTree = "<group>"; };
+		1896C842F9D4DBF1842A37D1AA1343C4 /* JZFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZFramework.release.xcconfig; sourceTree = "<group>"; };
 		19A3BC901EE78B942E839771EB35B0C2 /* Pods-zjz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zjz.release.xcconfig"; sourceTree = "<group>"; };
-		20D3E97AADE453E21315C24505C2BC02 /* JZFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZFramework-dummy.m"; sourceTree = "<group>"; };
 		263242C553A5E345BE8F8A3EE38A57BD /* Pods-zjz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zjz-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ABC8B320A5861B8001CA75A01F41359 /* JZFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZFramework.debug.xcconfig; sourceTree = "<group>"; };
-		34218CDFD58B6CD4158DD2BFBE7F9609 /* MyFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFramework.h; path = Sources/MyFramework.h; sourceTree = "<group>"; };
+		4DE6BBF8CCE343A3BEFD72CB35173B5B /* MyTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyTest.m; path = Sources/MyTest.m; sourceTree = "<group>"; };
 		4E9E32AA3FCF0A247588B0D1BFF64457 /* Pods-zjz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zjz-dummy.m"; sourceTree = "<group>"; };
-		5023B63C4D48B9FF9BEEA592993B058B /* libPods-zjz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zjz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5023B63C4D48B9FF9BEEA592993B058B /* libPods-zjz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-zjz.a"; path = "libPods-zjz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677E9BE7DF990E3D6136240F19870FC3 /* JZFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZFramework.debug.xcconfig; sourceTree = "<group>"; };
 		705CCD90C13401713AF7C0C17B138D00 /* Pods-zjz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zjz.debug.xcconfig"; sourceTree = "<group>"; };
-		7644F312247139E0808E5EE88BB1DCB6 /* JZFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZFramework-prefix.pch"; sourceTree = "<group>"; };
-		98228B7B38FD1D467530D33EB60C1F03 /* libJZFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJZFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5476D6DFD660984E4502C6F8CEC848A /* MyFramework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFramework.m; path = Sources/MyFramework.m; sourceTree = "<group>"; };
-		DFD668993DFDB51C92CF44E14D562A05 /* JZFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZFramework.release.xcconfig; sourceTree = "<group>"; };
+		9530EC10713379DF90A8D9FB91346649 /* JZFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZFramework-prefix.pch"; sourceTree = "<group>"; };
+		98228B7B38FD1D467530D33EB60C1F03 /* libJZFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJZFramework.a; path = libJZFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B631305B0BAF326C710CBDE8E4775B20 /* JZFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZFramework-dummy.m"; sourceTree = "<group>"; };
+		C140DFA6377A3348DC3CB990A504ED02 /* MyTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyTest.h; path = Sources/MyTest.h; sourceTree = "<group>"; };
+		F295EED4BBBDFFA76552F0927DE73F6B /* MyFramework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFramework.m; path = Sources/MyFramework.m; sourceTree = "<group>"; };
 		F50D3933D1BD127EEE35829F5AF3F02F /* Pods-zjz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zjz-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +52,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58D8911CAEA85AF27D3C109F884F213A /* Frameworks */ = {
+		D99D7072EE5F383AC39EE8548EDAE15C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,6 +62,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15C200A88A3AFC0BA9BBDE77F0BCD2CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B631305B0BAF326C710CBDE8E4775B20 /* JZFramework-dummy.m */,
+				9530EC10713379DF90A8D9FB91346649 /* JZFramework-prefix.pch */,
+				677E9BE7DF990E3D6136240F19870FC3 /* JZFramework.debug.xcconfig */,
+				1896C842F9D4DBF1842A37D1AA1343C4 /* JZFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JZFramework";
+			sourceTree = "<group>";
+		};
+		284A4A988D2D3222F152FF930AB723D0 /* JZFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0C3C899514A276B476570C27186D05BB /* MyFramework.h */,
+				F295EED4BBBDFFA76552F0927DE73F6B /* MyFramework.m */,
+				C140DFA6377A3348DC3CB990A504ED02 /* MyTest.h */,
+				4DE6BBF8CCE343A3BEFD72CB35173B5B /* MyTest.m */,
+				15C200A88A3AFC0BA9BBDE77F0BCD2CD /* Support Files */,
+			);
+			name = JZFramework;
+			path = JZFramework;
+			sourceTree = "<group>";
+		};
 		62AD08DF07E4A2B61A3B5D889BD250B4 /* Pods-zjz */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,22 +100,10 @@
 			path = "Target Support Files/Pods-zjz";
 			sourceTree = "<group>";
 		};
-		7EDFDEDD8203137B25EA5E295D7D23F6 /* Support Files */ = {
+		AB4264340E5022A15D972DD225E1FB82 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20D3E97AADE453E21315C24505C2BC02 /* JZFramework-dummy.m */,
-				7644F312247139E0808E5EE88BB1DCB6 /* JZFramework-prefix.pch */,
-				2ABC8B320A5861B8001CA75A01F41359 /* JZFramework.debug.xcconfig */,
-				DFD668993DFDB51C92CF44E14D562A05 /* JZFramework.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JZFramework";
-			sourceTree = "<group>";
-		};
-		AAB33A6E6653D1BB0452E1350B17148C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E8DDCD587B18578B9FFAF1F3D8D987AE /* JZFramework */,
+				284A4A988D2D3222F152FF930AB723D0 /* JZFramework */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,7 +121,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				AAB33A6E6653D1BB0452E1350B17148C /* Pods */,
+				AB4264340E5022A15D972DD225E1FB82 /* Pods */,
 				D486EB9F28D3FCE941C1CA98D0A36CBC /* Products */,
 				B90F8CE63C3B7289D82BE059CE0E5989 /* Targets Support Files */,
 			);
@@ -126,24 +143,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E8DDCD587B18578B9FFAF1F3D8D987AE /* JZFramework */ = {
-			isa = PBXGroup;
-			children = (
-				34218CDFD58B6CD4158DD2BFBE7F9609 /* MyFramework.h */,
-				B5476D6DFD660984E4502C6F8CEC848A /* MyFramework.m */,
-				7EDFDEDD8203137B25EA5E295D7D23F6 /* Support Files */,
-			);
-			path = JZFramework;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1786643ACBD6425A3223059B0864F795 /* Headers */ = {
+		01F883507324903A2F41316C4FC76694 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7897E4BD695D34A958D0518A9F12A6 /* MyFramework.h in Headers */,
+				9D047711667C16DEA7E608DAA20A1E1D /* MyFramework.h in Headers */,
+				3D4B6F254853B90E23673DE5A014D8DA /* MyTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,11 +185,11 @@
 		};
 		EE38FBE186C8F5B63F5AA9E3E2F505E2 /* JZFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2AF7AD98CE965A0AF40D60BA4591642 /* Build configuration list for PBXNativeTarget "JZFramework" */;
+			buildConfigurationList = 9D5C7D362C8C3267CBED096E8DA58886 /* Build configuration list for PBXNativeTarget "JZFramework" */;
 			buildPhases = (
-				1786643ACBD6425A3223059B0864F795 /* Headers */,
-				17AA0D22149CED0C54AC629A1464B686 /* Sources */,
-				58D8911CAEA85AF27D3C109F884F213A /* Frameworks */,
+				01F883507324903A2F41316C4FC76694 /* Headers */,
+				621666D9E4E5EDA1FD833617B314073C /* Sources */,
+				D99D7072EE5F383AC39EE8548EDAE15C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,12 +229,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17AA0D22149CED0C54AC629A1464B686 /* Sources */ = {
+		621666D9E4E5EDA1FD833617B314073C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2713F3008ACE7059E1CA96DC9ECF28F2 /* JZFramework-dummy.m in Sources */,
-				9F4CC7308302534944DF6FC665062BCF /* MyFramework.m in Sources */,
+				109D79EC956E9AD1D63F6172BEDCDCEE /* JZFramework-dummy.m in Sources */,
+				9E472E5CF4A9E0A7D1DFCA3BBE1D6713 /* MyFramework.m in Sources */,
+				04F5FEFD498C3674BB421312C4294196 /* MyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +280,9 @@
 			};
 			name = Debug;
 		};
-		39D17EAB5BE1CF3526834C12D67F683B /* Debug */ = {
+		3C887B861BACC4E12328931424B82305 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ABC8B320A5861B8001CA75A01F41359 /* JZFramework.debug.xcconfig */;
+			baseConfigurationReference = 677E9BE7DF990E3D6136240F19870FC3 /* JZFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -293,30 +302,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		4884B526586E9667A0295F34349DCED3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFD668993DFDB51C92CF44E14D562A05 /* JZFramework.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/JZFramework/JZFramework-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = JZFramework;
-				PRODUCT_NAME = JZFramework;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -464,6 +449,30 @@
 			};
 			name = Release;
 		};
+		EA073AF62AA67811F321871C6878225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1896C842F9D4DBF1842A37D1AA1343C4 /* JZFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JZFramework/JZFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JZFramework;
+				PRODUCT_NAME = JZFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,11 +494,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2AF7AD98CE965A0AF40D60BA4591642 /* Build configuration list for PBXNativeTarget "JZFramework" */ = {
+		9D5C7D362C8C3267CBED096E8DA58886 /* Build configuration list for PBXNativeTarget "JZFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39D17EAB5BE1CF3526834C12D67F683B /* Debug */,
-				4884B526586E9667A0295F34349DCED3 /* Release */,
+				3C887B861BACC4E12328931424B82305 /* Debug */,
+				EA073AF62AA67811F321871C6878225F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
