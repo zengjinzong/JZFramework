@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "JZFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "学习"
   spec.homepage     = "https://github.com/zengjinzong/JZFramework"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
